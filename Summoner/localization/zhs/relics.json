@@ -1,0 +1,9 @@
+{
+	"SUMMONER_RELIC_SUMMONER_CROWN.title": "召唤师王冠",
+	"SUMMONER_RELIC_SUMMONER_CROWN.description": "每回合开始时，在本场战斗中随机[gold]升级[/gold]你[gold]抽牌堆[/gold]中的一张牌。",
+	"SUMMONER_RELIC_SUMMONER_CROWN.favor": "[red]这个遗物的细节将在未来揭晓……[/red]",
+
+	"SUMMONER_RELIC_ALLIANCE_CROWN.title": "加冕之冠",
+	"SUMMONER_RELIC_ALLIANCE_CROWN.description": "每回合开始时，在本场战斗中随机[gold]升级[/gold]你[gold]抽牌堆[/gold]中的两张牌。",
+	"SUMMONER_RELIC_ALLIANCE_CROWN.favor": "[red]这个遗物的细节将在未来揭晓……[/red]"
+}

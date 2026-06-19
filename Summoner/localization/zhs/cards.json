@@ -1,0 +1,141 @@
+{
+    // Colorless Cards
+    "SUMMONER_CARD_ASSASSIN_MARK.description": "造成{Damage:diff()}+5%敌人当前生命值的伤害。",
+	"SUMMONER_CARD_ASSASSIN_MARK.title": "潜龙印",
+  
+    // Summoner Cards
+    "SUMMONER_CARD_ALL_OUT.description": "失去{MaxHpReduce:diff()}点[gold]最大生命值[/gold]，获得{VulnerablePower:diff()}层[gold]易伤[/gold]，{FrailPower:diff()}层[gold]脆弱[/gold]。\n获得{Energy:energyIcons()}。抽{Cards:diff()}张牌。获得{StrengthPower:diff()}点[gold]力量[/gold]。",
+	"SUMMONER_CARD_ALL_OUT.title": "傲岸雄姿",
+  
+    "SUMMONER_CARD_ECLIPSE.description": "减少{DamageAdd:diff()}点即将受到的伤害。",
+	"SUMMONER_CARD_ECLIPSE.title": "日蚀",
+  
+    "SUMMONER_CARD_DRAGONS_RAGE.description": "造成{Damage:diff()}点伤害。对其他敌人造成{Damage:diff()}+初始目标{PercentDamage:diff()}%最大生命值的伤害。",
+	"SUMMONER_CARD_DRAGONS_RAGE.title": "猛龙摆尾",
+	    
+    "SUMMONER_CARD_SIPHON_POWER.description": "消耗你所有[orange]法力[/orange]。造成等量伤害。获得等量[gold]格挡[/gold]。",
+	"SUMMONER_CARD_SIPHON_POWER.title": "虹吸能量",
+  
+    "SUMMONER_CARD_AKALI.description": "本回合你每打出一张非潜龙印的攻击牌并造成伤害，添加一张[gold]潜龙印[/gold]到你的手牌。",
+	"SUMMONER_CARD_AKALI.title": "我流奥义",
+	  
+    "SUMMONER_CARD_PERFECT_EXECUTION.description": "对所有敌人造成{Damage:diff()}点伤害。\n敌人每损失1%生命值，伤害提升2%。",
+	"SUMMONER_CARD_PERFECT_EXECUTION.title": "表里杀缭乱",
+	  
+    "SUMMONER_CARD_POINT_STRIKE.description": "造成{Damage:diff()}点伤害。此牌在本场战斗中伤害-2。\n将此牌放到抽牌堆顶。",
+	"SUMMONER_CARD_POINT_STRIKE.title": "寒影",
+  
+	"SUMMONER_CARD_KAISA_FORM.description": "每当你的攻击造成伤害时，同时给予一层[gold]电浆[/gold]。",
+	"SUMMONER_CARD_KAISA_FORM.title": "卡莎形态",
+
+	"SUMMONER_CARD_ICATHIAN_RAIN.description": "随机对敌人造成{Damage:diff()}点伤害同时给予一层[gold]电浆[/gold]{Repeat:diff()}次。",
+	"SUMMONER_CARD_ICATHIAN_RAIN.title": "艾卡西亚暴雨",
+
+	"SUMMONER_CARD_VOID_SEEKER.description": "造成{Damage:diff()}点伤害，同时给予{Plasma:diff()}层[gold]电浆[/gold]",
+	"SUMMONER_CARD_VOID_SEEKER.title": "虚空索敌",
+
+	"SUMMONER_CARD_KILLER_INSTINCT.description": "获得{Block:diff()}点[gold]格挡[/gold]。\n给予所有敌人{Plasma:diff()}层[gold]电浆[/gold]",
+	"SUMMONER_CARD_KILLER_INSTINCT.title": "猎手本能",
+
+	"SUMMONER_CARD_SUPERCHARGE.description": "获得{Energy:energyIcons()}。\n本回合你每花费{energyPrefix:energyIcons(1)}，给予一名随机敌人一层[gold]电浆[/gold]",
+	"SUMMONER_CARD_SUPERCHARGE.title": "极限超载",
+
+	"SUMMONER_CARD_DEATH_LOTUS.description": "对所有敌人造成{Damage:diff()}点伤害{Repeat:diff()}次",
+	"SUMMONER_CARD_DEATH_LOTUS.title": "死亡莲华",
+
+	"SUMMONER_CARD_CHRONOBREAK.description": "丢弃所有牌。\n抽{Cards:diff()}张牌，获得{Energy:energyIcons()}，回复{Heal:diff()}点生命。",
+	"SUMMONER_CARD_CHRONOBREAK.title": "时空断裂",
+
+	"SUMMONER_CARD_REQUIEM.description": "",
+	"SUMMONER_CARD_REQUIEM.title": "安魂曲",
+
+	"SUMMONER_CARD_OVERLOAD.description": "造成{Damage:diff()}点伤害。\n对具有[gold]涌动[/gold]的单位造成两倍伤害",
+	"SUMMONER_CARD_OVERLOAD.title": "超负荷",
+
+	"SUMMONER_CARD_SPELL_FLUX.description": "给予所有敌人{SpellFlux:diff()}层[gold]涌动[/gold]。\n添加一张[gold]超负荷[/gold]到你的手牌中。",
+	"SUMMONER_CARD_SPELL_FLUX.title": "法术涌动",
+
+	"SUMMONER_CARD_ARCANE_MASTERY.description": "每{Mana:diff()}点[orange]法力[/orange]转化为{StrengthPower:diff()}点[gold]力量[/gold]。\n添加两张[gold]超负荷[/gold]到你的手牌中。",
+	"SUMMONER_CARD_ARCANE_MASTERY.title": "奥术专精",
+
+	"SUMMONER_CARD_REALM_WARP.description": "以双倍伤害打出并消耗你所有的[gold]超负荷[/gold]。",
+	"SUMMONER_CARD_REALM_WARP.title": "曲境折跃",
+
+	"SUMMONER_CARD_VOID_STONE.description": "获得{Mana:diff()}X点[orange]法力[/orange]。",
+	"SUMMONER_CARD_VOID_STONE.title": "虚空之石",
+
+	"SUMMONER_CARD_RUNE_PRISON.description": "给予{VulnerablePower:diff()}层[gold]易伤[/gold]，若其带有[gold]涌动[/gold]，则给予{_VulnerablePower:diff()}层。\n添加一张[gold]超负荷[/gold]到你的手牌中。",
+	"SUMMONER_CARD_RUNE_PRISON.title": "法术禁锢",
+
+	"SUMMONER_CARD_WORLD_ENDER.description": "获得{StrengthPower:diff()}点[gold]力量[/gold]。翻倍你的力量加成。\n所有敌人获得{EnemyStrength:diff()}点[gold]力量[/gold]。",
+	"SUMMONER_CARD_WORLD_ENDER.title": "大灭",
+
+	"SUMMONER_CARD_BLACK_SHIELD.description": "获得{Block:diff()}点[gold]格挡[/gold]。\n获得{Artifact:diff()}点[gold]人工制品[/gold]",
+	"SUMMONER_CARD_BLACK_SHIELD.title": "黑暗之盾",
+
+	"SUMMONER_CARD_CONDEMN.description": "造成等于敌人{PercentDamage:diff()}%生命值的伤害。\n（力量会提升百分比伤害）",
+	"SUMMONER_CARD_CONDEMN.title": "恶魔审判",
+
+	"SUMMONER_CARD_MIMIC.description": "将你消耗牌堆的牌加入抽牌堆。",
+	"SUMMONER_CARD_MIMIC.title": "故技重施",
+
+	"SUMMONER_CARD_LIVING_FORGE.description": "本场战斗结束时，随机升级你卡组的{LivingForge:diff()}张牌。",
+	"SUMMONER_CARD_LIVING_FORGE.title": "活体锻炉",
+
+	"SUMMONER_CARD_PIT_GRIT.description": "回合开始时，你失去10%当前生命值，然后获得半数的[gold]力量[/gold]。\n回合结束时，你回复10%已损生命值。",
+	"SUMMONER_CARD_PIT_GRIT.title": "沙场豪情",
+
+	"SUMMONER_CARD_HAYMAKER.description": "对所有敌人造成等量于你已损生命值的伤害。\n每1点[gold]力量[/gold]提升{Percent:percentMore()}%伤害。",
+	"SUMMONER_CARD_HAYMAKER.title": "蓄意轰拳",
+
+	"SUMMONER_CARD_SORCERY.description": "获得{Mana:diff()}点[orange]法力[/orange]。\n抽{Cards:diff()}张牌。",
+	"SUMMONER_CARD_SORCERY.title": "巫术",
+
+	"SUMMONER_CARD_WAY_OF_THE_WANDERER.description": "每打出一张技能牌，获得{PlatingPower:diff()}点[gold]覆甲[/gold]。",
+	"SUMMONER_CARD_WAY_OF_THE_WANDERER.title": "浪客之道",
+
+	"SUMMONER_CARD_MANA_SURGE.title": "法力澎湃",
+    "SUMMONER_CARD_MANA_SURGE.description":"获得与每回合你造成的第一次伤害等量的[orange]法力[/orange]。",
+
+	"SUMMONER_CARD_SINGULARITY.title": "星芒凝汇",
+    "SUMMONER_CARD_SINGULARITY.description":"把你所有的[orange]法力[/orange]转化为[gold]星尘[/gold]。",
+
+	"SUMMONER_CARD_RITE_OF_THE_ARANES.title": "奥术仪式",
+	"SUMMONER_CARD_RITE_OF_THE_ARANES.description":"持续消耗[orange]法力[/orange]，每消耗{Mana:diff()}点[orange]法力[/orange]，对一名随机敌人造成{Damage:diff()}点伤害。",
+
+
+	"SUMMONER_CARD_LIGHTNING_FIELD.title": "闪电领域",
+    "SUMMONER_CARD_LIGHTNING_FIELD.description":"获得{Mana:diff()}点[orange]法力[/orange]。\n本回合你造成伤害后获得{ManaPro:diff()}点[orange]法力[/orange]。",
+
+
+	"SUMMONER_CARD_DEATH_MARK.title": "瞬狱影杀阵",
+    "SUMMONER_CARD_DEATH_MARK.description":"若本回合造成的伤害达到目标最大生命值的[gold]50%[/gold]，则对其造成最大生命值的[gold]50%[/gold]的伤害。",
+	
+	"SUMMONER_CARD_SKY_SPLITTER.description": "对所有敌人造成{Damage:diff()}点伤害。\n所有友方单位获得{Block:diff()}点[gold]格挡[/gold]。",
+	"SUMMONER_CARD_SKY_SPLITTER.title": "霹天雳地",
+
+	"SUMMONER_CARD_SPIRIT_FIRE.description": "给予所有敌人{VulnerablePower:diff()}层[gold]易伤[/gold]。",
+	"SUMMONER_CARD_SPIRIT_FIRE.title": "灵魂烈焰",
+
+	"SUMMONER_CARD_STRIKE_SUMMONER.description": "造成{Damage:diff()}点伤害。",
+	"SUMMONER_CARD_STRIKE_SUMMONER.title": "打击",
+
+	"SUMMONER_CARD_DEFEND_SUMMONER.description": "获得{Block:diff()}点[gold]格挡[/gold]。",
+	"SUMMONER_CARD_DEFEND_SUMMONER.title": "防御",
+
+	"SUMMONER_CARD_PIERCING_ARROW.description":"对所有敌人造成{Damage:diff()}点伤害。\n在你的回合结束时，如果这张牌在你的[gold]手牌[/gold]中，将这张牌在本场战斗中的伤害增加{Increase:diff()}。",
+	"SUMMONER_CARD_PIERCING_ARROW.title": "穿刺之箭",
+
+	"SUMMONER_CARD_DARKIN_ARROW.description": "对所有敌人造成{Damage:diff()}点伤害。\n在你的回合结束时，如果这张牌在你的[gold]手牌[/gold]中，将这张牌在本场战斗中的伤害增加{Increase:diff()}。",
+	"SUMMONER_CARD_DARKIN_ARROW.title": "暗裔之箭",
+
+  	"SUMMONER_CARD_CHAIN_OF_CORRUPTION.description":"你给予一名敌人{VulnerablePower:diff()}层[gold]易伤[/gold]和{WeakPower:diff()}层[gold]虚弱[/gold]",
+	"SUMMONER_CARD_CHAIN_OF_CORRUPTION.title": "腐败锁链",
+
+	"SUMMONER_CARD_SIPHONING_STRIKE.description":"造成{Damage:diff()}点伤害。\n这张牌在本局游戏中的伤害永久性增加{Increase:diff()}。",
+	"SUMMONER_CARD_SIPHONING_STRIKE.title": "汲魂痛击",
+
+	"SUMMONER_CARD_INSPIRATION.description":"你打出的下一张攻击，技能，或能力牌耗能变为0{energyPrefix:energyIcons(1)}。",
+	"SUMMONER_CARD_INSPIRATION.title": "启迪"
+
+}

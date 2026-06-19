@@ -1,0 +1,49 @@
+<Project Sdk="Godot.NET.Sdk/4.5.1">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+      
+    <ImplicitUsings>true</ImplicitUsings>
+    <LangVersion>13.0</LangVersion>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+      
+    <Sts2Dir>D:\Steam\steamapps\common\Slay the Spire 2</Sts2Dir>
+    <Sts2DataDir>$(Sts2Dir)\data_sts2_windows_x86_64</Sts2DataDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <Reference Include="sts2">
+         <HintPath>$(Sts2DataDir)\sts2.dll</HintPath>
+         <Private>false</Private>
+      </Reference>
+
+      <Reference Include="0Harmony">
+         <HintPath>$(Sts2DataDir)\0Harmony.dll</HintPath>
+         <Private>false</Private>
+      </Reference>
+
+      <!-- 本地引用，注意路径是否正确 -->
+      <!-- <Reference Include="BaseLib">
+        <HintPath>$(Sts2Dir)/mods/BaseLib/BaseLib.dll</HintPath>
+        <Private>false</Private>
+      </Reference> -->
+      <!-- NuGet获取，注意版本是否一致，不一致手动更改Version -->
+      <PackageReference Include="STS2.RitsuLib" Version="*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Scripts\Patch\" />
+  </ItemGroup>
+
+  <Target Name="CopyCustomOutput" AfterTargets="Build">
+     <ItemGroup>
+         <OutputDlls Include="$(OutputPath)\$(AssemblyName).dll" />
+         <OutputDlls Include="$(OutputPath)\$(AssemblyName).pdb" />
+     </ItemGroup>
+
+     <MakeDir Directories="$(MSBuildProjectDirectory)\build" />
+     <Copy SourceFiles="@(OutputDlls)" DestinationFolder="$(MSBuildProjectDirectory)\build" />
+  </Target>
+</Project>

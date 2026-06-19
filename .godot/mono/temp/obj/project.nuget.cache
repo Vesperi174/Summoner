@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "MCEvD4f+8z0=",
+  "success": true,
+  "projectFilePath": "D:\\SlayTheSpire2ModMaking\\Project\\Summoner\\Summoner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\liu24\\.nuget\\packages\\godot.sourcegenerators\\4.5.1\\godot.sourcegenerators.4.5.1.nupkg.sha512",
+    "C:\\Users\\liu24\\.nuget\\packages\\godotsharp\\4.5.1\\godotsharp.4.5.1.nupkg.sha512",
+    "C:\\Users\\liu24\\.nuget\\packages\\godotsharpeditor\\4.5.1\\godotsharpeditor.4.5.1.nupkg.sha512",
+    "C:\\Users\\liu24\\.nuget\\packages\\sts2.ritsulib\\0.4.24\\sts2.ritsulib.0.4.24.nupkg.sha512",
+    "C:\\Users\\liu24\\.nuget\\packages\\system.io.hashing\\9.0.0\\system.io.hashing.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

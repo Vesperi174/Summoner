@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://blhtn7wdrh7un"]
+
+[ext_resource type="Texture2D" uid="uid://bibyd8auqxomm" path="res://Resource/image/standing.png" id="1_00qfs"]
+
+[node name="SummonerCharacterMerchant" type="Node2D"]
+
+[node name="Standing" type="Sprite2D" parent="."]
+position = Vector2(-6.9999924, -265.00003)
+scale = Vector2(0.6086528, 0.6086528)
+texture = ExtResource("1_00qfs")

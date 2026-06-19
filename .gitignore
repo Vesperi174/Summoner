@@ -1,0 +1,31 @@
+﻿# Build outputs
+build/
+*.dll
+*.pdb
+*.exe
+*.bin
+*.pck
+
+# Rider/ReSharper
+.idea/
+*.sln.iml
+*.csproj.user
+*.csproj.DotSettings
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# MonoDevelop
+*.userprefs
+
+# Godot import cache
+*.import
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log

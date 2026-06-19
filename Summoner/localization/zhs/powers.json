@@ -1,0 +1,74 @@
+{
+  
+  
+  "SUMMONER_POWER_AKALI_POWER.title": "我流奥义",
+  "SUMMONER_POWER_AKALI_POWER.description": "本回合你每打出一张非潜龙印的攻击牌并造成伤害，添加一张潜龙印到你的手牌。",
+  "SUMMONER_POWER_AKALI_POWER.smartDescription": "本回合你每打出一张非潜龙印的攻击牌并造成伤害，添加[blue]{Amount}[/blue]张潜龙印到你的手牌。",
+   
+  "SUMMONER_POWER_ECLIPSE_POWER.title": "日蚀",
+  "SUMMONER_POWER_ECLIPSE_POWER.description": "减少你即将受到的伤害。",
+  "SUMMONER_POWER_ECLIPSE_POWER.smartDescription": "减少你即将受到的[blue]{Amount}[/blue]点伤害。",
+  
+  "SUMMONER_POWER_SCALE_POWER.title": "吸血",
+  "SUMMONER_POWER_SCALE_POWER.description": "根据你造成的伤害回复生命值。",
+  "SUMMONER_POWER_SCALE_POWER.smartDescription": "你拥有[blue]{Amount}[/blue]%[gold]吸血率[/gold]。",
+
+  "SUMMONER_POWER_PLASMA_POWER.title": "电浆",
+  "SUMMONER_POWER_PLASMA_POWER.description": "[gold]电浆[/gold]达到[blue]5[/blue]层时，失去所有层数，造成20%已损生命值的伤害。",
+  "SUMMONER_POWER_PLASMA_POWER.smartDescription": "[gold]电浆[/gold]达到[blue]5[/blue]层时，失去所有层数，造成20%已损生命值的伤害。",
+
+  "SUMMONER_POWER_KAISA_FORM_POWER.description": "每当你的攻击造成伤害时，同时给予一层[gold]电浆[/gold]。",
+  "SUMMONER_POWER_KAISA_FORM_POWER.smartDescription": "每当你的攻击造成伤害时，同时给予[blue]{Amount}[/blue]层[gold]电浆[/gold]。",
+  "SUMMONER_POWER_KAISA_FORM_POWER.title": "卡莎形态",
+
+  "SUMMONER_POWER_SUPERCHARGE_POWER.description": "本回合你每花费{energyPrefix:energyIcons(1)}，给予一名随机敌人一层[gold]电浆[/gold]。",
+  "SUMMONER_POWER_SUPERCHARGE_POWER.smartDescription": "本回合你每花费{energyPrefix:energyIcons(1)}，给予一名随机敌人[blue]{Amount}[/blue]层[gold]电浆[/gold]。",
+  "SUMMONER_POWER_SUPERCHARGE_POWER.title": "极限超载",
+
+  "SUMMONER_POWER_LIVING_FORGE_POWER.title": "活体锻炉",
+  "SUMMONER_POWER_LIVING_FORGE_POWER.description": "本场战斗结束时，随机升级你卡组的牌。",
+  "SUMMONER_POWER_LIVING_FORGE_POWER.smartDescription": "本场战斗结束时，随机升级你卡组的{Amount}张牌。",
+
+  "SUMMONER_POWER_SPELL_FLUX_POWER.title": "涌动",
+  "SUMMONER_POWER_SPELL_FLUX_POWER.description": "受到伤害时，其他拥有[gold]涌动[/gold]的单位受到等量伤害。\n[gold]超负荷[/gold]伤害传递翻倍",
+  "SUMMONER_POWER_SPELL_FLUX_POWER.smartDescription": "受到伤害时，其他拥有[gold]涌动[/gold]的单位受到等量伤害。\n[gold]超负荷[/gold]伤害传递翻倍",
+
+  "SUMMONER_POWER_PIT_GRIT_POWER.title": "沙场豪情",
+  "SUMMONER_POWER_PIT_GRIT_POWER.description": "回合开始时，你失去10%当前生命值，然后获得半数的[gold]力量[/gold]。\n回合结束时，你回复10%已损生命值。",
+  "SUMMONER_POWER_PIT_GRIT_POWER.smartDescription": "回合开始时，你失去{Percent:percentLess()}%当前生命值。然后获得半数的[gold]力量[/gold]。\n回合结束时，你回复{Percent:percentLess()}%已损生命值。",
+
+  "SUMMONER_POWER_ARCANE_MASTERY_POWER.title": "奥术专精",
+  "SUMMONER_POWER_ARCANE_MASTERY_POWER.description": "回合结束时回复至等量于层数的生命。",
+  "SUMMONER_POWER_ARCANE_MASTERY_POWER.smartDescription": "回合结束时回复至{Amount}点生命。",
+
+  "SUMMONER_POWER_MANA_POWER.title": "法力",
+  "SUMMONER_POWER_MANA_POWER.description": "你拥有[orange]法力[/orange]。",
+  "SUMMONER_POWER_MANA_POWER.smartDescription": "你拥有{Amount}点[orange]法力[/orange]。", 
+
+  "SUMMONER_POWER_MANA_SURGE_POWER.title": "法力澎湃",
+  "SUMMONER_POWER_MANA_SURGE_POWER.description":"获得与每回合你造成的第一次伤害等量的[orange]法力[/orange]。",
+  "SUMMONER_POWER_MANA_SURGE_POWER.smartDescription":"获得与每回合你造成的前{Amount}次伤害等量的[orange]法力[/orange]。",
+
+  "SUMMONER_POWER_COSMIC_CREATOR_POWER.title": "星尘",
+  "SUMMONER_POWER_COSMIC_CREATOR_POWER.description":"你的攻击[red]处决[/red]生命值低于[gold]星尘[/gold]层数的敌人。",
+  "SUMMONER_POWER_COSMIC_CREATOR_POWER.smartDescription":"你的攻击[red]处决[/red]生命值低于{Amount}的敌人。",
+
+  "SUMMONER_POWER_LIGHTNING_FIELD_POWER.title": "闪电领域",
+  "SUMMONER_POWER_LIGHTNING_FIELD_POWER.description":"本回合你造成伤害后获得[orange]法力[/orange]。",
+  "SUMMONER_POWER_LIGHTNING_FIELD_POWER.smartDescription":"本回合你造成伤害后获得{Amount}点[orange]法力[/orange]。",
+
+  "SUMMONER_POWER_DEATH_MARK_POWER.title": "瞬狱影杀阵",
+  "SUMMONER_POWER_DEATH_MARK_POWER.description":"若本回合造成的伤害达到目标最大生命值的[gold]50%[/gold]，则对其造成最大生命值的[gold]50%[/gold]的伤害。",
+  "SUMMONER_POWER_DEATH_MARK_POWER.smartDescription":"还需要造成{Amount}点伤害，则对其造成最大生命值的[gold]50%[/gold]的伤害。",
+
+
+  "SUMMONER_POWER_WAY_OF_THE_WANDERER_POWER.title": "浪客之道",
+  "SUMMONER_POWER_WAY_OF_THE_WANDERER_POWER.description":"每打出一张技能牌，获得1点[gold]覆甲[/gold]。",
+  "SUMMONER_POWER_WAY_OF_THE_WANDERER_POWER.smartDescription":"每打出一张技能牌，获得{Amount}点[gold]覆甲[/gold]。",
+
+
+  "SUMMONER_POWER_INSPIRATION_POWER.title": "启迪",
+  "SUMMONER_POWER_INSPIRATION_POWER.description": "你的下一张攻击，技能，或能力牌耗能为[blue]0[/blue]{energyPrefix:energyIcons(1)}。",
+  "SUMMONER_POWER_INSPIRATION_POWER.smartDescription": "你的下[blue]{Amount}[/blue]张攻击，技能，或能力牌耗能为[blue]0[/blue]{energyPrefix:energyIcons(1)}。"
+
+}

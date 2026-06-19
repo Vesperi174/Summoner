@@ -1,0 +1,15 @@
+{
+  "SUMMONER_CHARACTER_SUMMONER.title": "召唤师",
+  "SUMMONER_CHARACTER_SUMMONER.description": "一位召唤师峡谷的召唤师受邀来到高塔，\n他的法杖里蕴含着符文大陆的英雄能力。",
+  "SUMMONER_CHARACTER_SUMMONER.titleObject": "召唤师",
+  "SUMMONER_CHARACTER_SUMMONER.pronounObject": "他",
+  "SUMMONER_CHARACTER_SUMMONER.possessiveAdjective": "他的",
+  "SUMMONER_CHARACTER_SUMMONER.pronounPossessive": "他的",
+  "SUMMONER_CHARACTER_SUMMONER.pronounSubject": "他",
+  "SUMMONER_CHARACTER_SUMMONER.cardsModifierTitle": "召唤师卡牌",
+  "SUMMONER_CHARACTER_SUMMONER.cardsModifierDescription": "召唤师的卡牌现在会出现在奖励和商店中。",
+  "SUMMONER_CHARACTER_SUMMONER.eventDeathPrevention": "难道……我也征服不了高塔吗？",
+  "SUMMONER_CHARACTER_SUMMONER.unlockText": "完成 {Prerequisite} 的条件后解锁。",
+  "SUMMONER_CHARACTER_SUMMONER.banter.alive.endTurnPing": "[sine]我等不起你[/sine]",
+  "SUMMONER_CHARACTER_SUMMONER.banter.dead.endTurnPing": "……"
+}

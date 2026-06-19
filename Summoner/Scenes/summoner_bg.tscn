@@ -1,0 +1,116 @@
+[gd_scene load_steps=8 format=3 uid="uid://bby4ahlcnclbr"]
+
+[ext_resource type="Texture2D" uid="uid://cwkhc1i62l2fb" path="res://resource/image/222.png" id="1_txfch"]
+[ext_resource type="Texture2D" uid="uid://6w6phk60errt" path="res://images/vfx/dot.png" id="2_kv4cp"]
+
+[sub_resource type="Gradient" id="Gradient_jveqd"]
+offsets = PackedFloat32Array(0, 0.341, 0.929)
+colors = PackedColorArray(0, 0, 0, 1, 0, 0, 0, 1, 0.0003883189, 0.24478966, 0.79274994, 1)
+
+[sub_resource type="Gradient" id="Gradient_fnicy"]
+offsets = PackedFloat32Array(0, 0.178337, 0.573304, 1)
+colors = PackedColorArray(0.913725, 0.313726, 0.227451, 0, 0.13725491, 0.15294118, 0.9019608, 1, 0.2330055, 0.36490732, 0.9786499, 1, 0, 0, 0, 1)
+
+[sub_resource type="Gradient" id="Gradient_w0doc"]
+offsets = PackedFloat32Array(0, 0.178337, 1)
+colors = PackedColorArray(0.913725, 0.313726, 0.227451, 0, 0, 0, 0, 1, 0, 0, 0, 1)
+
+[sub_resource type="Curve" id="Curve_ayggo"]
+_data = [Vector2(0, 0.321019), 0.0, 0.0, 0, 0, Vector2(0.502521, 0.507939), 0.0, 0.0, 0, 0, Vector2(1, 0.36242), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="Gradient" id="Gradient_7n14s"]
+offsets = PackedFloat32Array(0, 0.0765864, 0.153173, 0.236324, 0.292123, 0.353392, 0.420131, 0.479212, 0.535011, 0.59081, 0.650985, 0.684902, 0.994413)
+colors = PackedColorArray(0.34902, 0.34902, 0.34902, 1, 0.176419, 0.176419, 0.176419, 1, 0.583297, 0.583297, 0.583297, 1, 0.724643, 0.724643, 0.724643, 1, 0.281187, 0.281187, 0.281187, 1, 0.542982, 0.542982, 0.542982, 1, 0.37981, 0.379811, 0.37981, 1, 0.779291, 0.779291, 0.779291, 1, 0.473976, 0.473976, 0.473975, 1, 0.246588, 0.246588, 0.246588, 1, 0.615422, 0.615422, 0.615422, 1, 0.513233, 0.513233, 0.513233, 1, 0.34902, 0.34902, 0.34902, 1)
+
+[node name="SummonerBg" type="Control"]
+layout_mode = 3
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -960.0
+offset_top = -523.0
+offset_right = 1600.0
+offset_bottom = 677.0
+grow_horizontal = 2
+grow_vertical = 2
+pivot_offset = Vector2(1280, 600)
+
+[node name="222" type="Sprite2D" parent="."]
+position = Vector2(1087, 683)
+texture = ExtResource("1_txfch")
+
+[node name="ash" type="CPUParticles2D" parent="."]
+position = Vector2(144, -176)
+amount = 40
+texture = ExtResource("2_kv4cp")
+lifetime = 15.0
+local_coords = true
+emission_shape = 3
+emission_rect_extents = Vector2(2500, 1)
+gravity = Vector2(27.765, 27)
+orbit_velocity_max = 0.03
+scale_amount_min = 0.03
+scale_amount_max = 0.07
+color_ramp = SubResource("Gradient_jveqd")
+
+[node name="ash2" type="CPUParticles2D" parent="."]
+position = Vector2(-14, 1163)
+amount = 20
+lifetime = 15.0
+preprocess = 15.0
+local_coords = true
+emission_shape = 3
+emission_rect_extents = Vector2(800, 500)
+gravity = Vector2(50, -27)
+orbit_velocity_max = 0.03
+radial_accel_max = 1.0
+angle_max = 353.6
+scale_amount_max = 4.0
+color_ramp = SubResource("Gradient_fnicy")
+
+[node name="ash3" type="CPUParticles2D" parent="."]
+position = Vector2(145, 1163)
+amount = 20
+lifetime = 15.0
+preprocess = 15.0
+local_coords = true
+emission_shape = 3
+emission_rect_extents = Vector2(800, 500)
+gravity = Vector2(50, -27)
+orbit_velocity_max = 0.03
+radial_accel_max = 1.0
+angle_max = 353.6
+scale_amount_max = 2.0
+color = Color(1, 1, 1, 0.611765)
+color_ramp = SubResource("Gradient_w0doc")
+
+[node name="light6" type="CPUParticles2D" parent="."]
+position = Vector2(1297, 1263)
+scale = Vector2(5.22916, 5)
+skew = -0.000679374
+amount = 2
+local_coords = true
+spread = 20.21
+gravity = Vector2(0, 0)
+scale_amount_min = 4.0
+scale_amount_max = 4.0
+scale_amount_curve = SubResource("Curve_ayggo")
+color = Color(0.764706, 0.262745, 0.219608, 0.552941)
+color_ramp = SubResource("Gradient_7n14s")
+
+[node name="light7" type="CPUParticles2D" parent="."]
+position = Vector2(737, 1324)
+scale = Vector2(5.22916, 5)
+skew = -0.000679374
+amount = 2
+local_coords = true
+spread = 20.21
+gravity = Vector2(0, 0)
+scale_amount_min = 4.0
+scale_amount_max = 4.0
+scale_amount_curve = SubResource("Curve_ayggo")
+color = Color(0.764706, 0.470588, 0.219608, 0.552941)
+color_ramp = SubResource("Gradient_7n14s")
