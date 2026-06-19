@@ -2,6 +2,10 @@
 
 为《杀戮尖塔2》打造的自定义角色模组，拥有独特的玩法机制。
 
+## 模组依赖
+
+- RitsuLib 下载地址：[https://github.com/BAKAOLC/STS2-RitsuLib](https://github.com/Vesperi/RitsuLib)
+
 ## 模组特性
 
 - **新可玩角色**：召唤师 - 一位来自符文之地的召唤师，擅长使用英雄能力
